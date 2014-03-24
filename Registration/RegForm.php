@@ -73,7 +73,7 @@ if(!empty($email))
 }
 	
 
-$email_from = 'contact@giftswithdistinction.com';
+$email_from = 'contact@email.com';
 $email_subject = "New Form submission ";
 $email_body = "Have received a new message from the user:\n \n ".
 "Name: $name \n".
@@ -84,7 +84,7 @@ $email_body = "Have received a new message from the user:\n \n ".
 "Comment:$message \n".
 "Messege send to:".
     
-$to = "contact@giftswithdistinction.com";
+$to = "contact@email.com";
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $email \r\n";
 
